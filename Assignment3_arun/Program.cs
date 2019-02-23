@@ -38,6 +38,16 @@ class Hugi
 
 class CountrySide
 {
+
+    /*
+    * CSD 3354 SECTION 3
+    * ASIGNMENT ONE
+    * TEAM MEMBERS:
+    * Arun bhatia c0732127
+    * Kunal Sharma c0727250
+    * Sohit Sharma c0730478
+    * Harjeet Singh c0730468
+    */
     static void Main()
     {
         CountrySide a = new CountrySide();
@@ -82,6 +92,7 @@ class CountrySide
 
     public void Run()
     {
+        //tries eevery loc
         Alst = new Village("Alst", false);
         Schvenig = new Village("Schvenig", false);
         Wessig = new Village("Wessig", false);
@@ -94,7 +105,7 @@ class CountrySide
         Alst.VillageSetup(0, Schvenig, Wessig);
         Schvenig.VillageSetup(14, Maeland, Helmholtz);
         // TO DO: Complete this section
-        Wessig.VillageSetup(10, Uster, Badden);
+        Wessig.VillageSetup(19, Uster, Badden);
         Uster.VillageSetup(28, null, null);
         Badden.VillageSetup(11, null, null);
         Maeland.VillageSetup(9, null, null);
@@ -110,7 +121,7 @@ class CountrySide
         {
             // Create an instance of StreamReader to read from a file.
             // The using statement also closes the StreamReader.
-            using (StreamReader sr = new StreamReader("c:/area51/annoucement.txt"))
+            using (StreamReader sr = new StreamReader("U:\\Users\\732127\\announcement.txt"))
             {
                 string line;
 
